@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-//cac ham 
+//cac ham cua qli sach
 void nhap(int& input);
 void TiepTuc(int &n);
 void ThemSach();
@@ -11,6 +11,7 @@ void SuaTTSach();
 void XoaSach();
 void HienThi();
 void QuanLiTV();
+//cac ham cua nguoi xem
 void nhap3(int& input);
 void Timkiem_tensach();
 void Timkiem_masach();
