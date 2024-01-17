@@ -221,13 +221,13 @@ void Timkiem_tensach()
 }
 void Timkiem_chude()
 {
-	string Tenchude;
-	cout << "Nhap ten chu de sach: ";
-	cin >> Tenchude;
+	string TheLoai;
+	cout << "Nhap ten the loai sach: ";
+	cin >> TheLoai;
 	bool check = true;
 	for (int i = 0; i < DSSach.size(); i++)
 	{
-		if (DSSach[i].TheLoai == Tenchude)
+		if (DSSach[i].TheLoai == TheLoai)
 		{
 			cout << "Ma so sach \tTen sach \tThe loai \tTac gia \tNam xuat ban \tSo trang \tSo luong sach\n";
 			cout << DSSach[i].MaSach << "\t\t" << DSSach[i].TenSach << "\t\t" << DSSach[i].TheLoai << "\t\t"
@@ -236,7 +236,7 @@ void Timkiem_chude()
 		}
 	}
 	if (check)
-		cout << "Khong tim thay chu de sach vua nhap.Vui long nhap lai !\n\n";
+		cout << "Khong tim thay the loai vua nhap.Vui long nhap lai !\n\n";
 	system("pause");
 }
 void Timkiem_masach()
