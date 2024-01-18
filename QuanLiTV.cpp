@@ -80,7 +80,10 @@ void SuaTTSach() // chinh sua thong tin sach
 		system("pause");
 	}
 	else
+	{
 		cout << "Khong tim thay ma sach vua nhap!\n\n";//khong co ma sach trong du lieu
+		system("pause");
+	}
 	system("cls");
 }
 void XoaSach() // xoa sach ra khoi thu vien
@@ -102,7 +105,10 @@ void XoaSach() // xoa sach ra khoi thu vien
 		system("pause");
 	}
 	else
-		cout << "Khong tim thay ma sach vua nhap!\n\n"; //khong co ma sach trong du lieu
+	{
+		cout << "Khong tim thay ma sach vua nhap!\n\n";//khong co ma sach trong du lieu
+		system("pause");
+	}
 	system("cls");
 }
 void HienThi()
