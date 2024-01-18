@@ -75,7 +75,10 @@ void SuaTTSach() // chinh sua thong tin sach
 		}
 	}
 	if (check)
+	{
 		cout << "Ban da sua thanh cong!\n\n";// sau khi chinh sua thanh cong
+		system("pause");
+	}
 	else
 		cout << "Khong tim thay ma sach vua nhap!\n\n";//khong co ma sach trong du lieu
 	system("cls");
@@ -94,7 +97,10 @@ void XoaSach() // xoa sach ra khoi thu vien
 		}
 	}
 	if (check)
+	{
 		cout << "Ban da xoa thanh cong!\n\n"; //neu da xoa xong sach
+		system("pause");
+	}
 	else
 		cout << "Khong tim thay ma sach vua nhap!\n\n"; //khong co ma sach trong du lieu
 	system("cls");
